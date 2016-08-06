@@ -14,8 +14,9 @@
     "react-dom": "^15.3.0"
   },
   "devDependencies": {
+    "http-server": "^0.9.0",
+    "source-map-loader": "^0.1.5",
     "ts-loader": "^0.8.2",
-    "typescript": "^1.8.10",
-    "http-server": "^0.9.0"
+    "typescript": "^1.8.10"
   }
 }
