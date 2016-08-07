@@ -1,6 +1,6 @@
-import greeter from "./ts/greeter";
-import $ = require("jquery");
+import index from "./ts/index";
+import * as $ from "jquery";
 
 $(() => {
-    $(document.body).html(greeter("Fagner"));
+    index("Compiler(not default)", "Framework(not default)");
 });
