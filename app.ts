@@ -2,5 +2,8 @@ import index from "./ts/index";
 import * as $ from "jquery";
 
 $(() => {
-    index("Compiler(not default)", "Framework(not default)");
+    let compiler = "this is comileper";
+    let framework = "this is framework";
+
+    index(compiler, framework);
 });
